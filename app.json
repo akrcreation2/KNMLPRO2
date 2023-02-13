@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/akrcreation2/KNMLPRO2",
-    "repository": "https://github.com/akrcreation2/KNMLPRO2",
+    "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -60,6 +60,39 @@
             "required": true
         },
         "DATABASE_NAME": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "required": false
+        },
+        "SINGLE_BUTTON": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "value": "True",
+            "required": false
+        },
+        "IMDB": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "value": "True",
+            "required": false
+        },
+        "SPELL_CHECK_REPLY": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "value": "True",
+            "required": false
+        },
+        "SELF_DELETE": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "value": "True",
+            "required": false
+        },
+        "SELF_DELETE_SECONDS": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "value": "42300",
+            "required": false
+        },
+        "URL_SHORTENR_WEBSITE": {
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "required": false
+        },
+        "URL_SHORTNER_WEBSITE_API": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
             "required": false
         },
